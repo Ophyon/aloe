@@ -1,0 +1,184 @@
+.cm-s-aloe.CodeMirror {
+    background: #272727;
+    color: #d4d4d4
+}
+
+.cm-s-aloe div.CodeMirror-selected {
+    background:  #3b754c
+}
+
+.cm-s-aloe .CodeMirror-line::-moz-selection,
+.cm-s-aloe .CodeMirror-line::selection,
+.cm-s-aloe .CodeMirror-line>span::-moz-selection,
+.cm-s-aloe .CodeMirror-line>span::selection,
+.cm-s-aloe .CodeMirror-line>span>span::-moz-selection,
+.cm-s-aloe .CodeMirror-line>span>span::selection,
+.cm-s-aloe .CodeMirror-selected,
+.cm-s-aloe .CodeMirror-selectedtext {
+    background:  #3b754c
+}
+
+.cm-s-aloe.CodeMirror pre {
+    padding-left: 0
+}
+
+.cm-s-aloe .CodeMirror-gutters {
+    background: #272727;
+    border-right: 0
+}
+
+.cm-s-aloe .CodeMirror-linenumber {
+    color: rgb(31, 223, 31);
+    padding-right: 10px;
+}
+
+.cm-s-aloe .CodeMirror-activeline .CodeMirror-linenumber.CodeMirror-gutter-elt {
+    background: #1c1c1c;
+    color: #fc4384;
+}
+
+.cm-s-aloe .CodeMirror-activeline .CodeMirror-linenumber {
+    color: rgb(93, 201, 66);
+    background: #1b1b1b;
+}
+
+
+.cm-s-aloe .CodeMirror-linenumber {
+    color: rgb(138, 150, 135)
+}
+.cm-s-aloe .CodeMirror-cursor {
+    border-left: 2px solid #51df7b
+}
+
+.cm-s-aloe .cm-searching {
+    background: rgba(243, 155, 53, .3) !important;
+    outline: 1px solid #f39b35
+}
+
+.cm-s-aloe .cm-searching.CodeMirror-selectedtext {
+    background: rgba(243, 155, 53, .7) !important;
+    color: #fff
+}
+
+.cm-s-aloe .cm-keyword {
+    color: #00a7aa
+}
+
+.cm-s-aloe .cm-atom {
+    color: #f39b35
+}
+
+.cm-s-aloe .cm-number,
+.cm-s-aloe span.cm-type {
+    color: #a06fca
+}
+
+.cm-s-aloe .cm-def {
+    color: #98e342
+}
+
+.cm-s-aloe .cm-property,
+.cm-s-aloe span.cm-variable {
+    color: #d4d4d4;
+    font-style: italic
+}
+
+.cm-s-aloe span.cm-variable-2 {
+    color: #da7dae;
+    font-style: italic
+}
+
+.cm-s-aloe span.cm-variable-3 {
+    color: #a06fca
+}
+
+.cm-s-aloe .cm-type.cm-def {
+    color: #fc4384;
+    font-style: normal;
+    text-decoration: underline
+}
+
+.cm-s-aloe .cm-property.cm-def {
+    color: #fc4384;
+    font-style: normal
+}
+
+.cm-s-aloe .cm-callee {
+    color: #fc4384;
+    font-style: normal
+}
+
+.cm-s-aloe .cm-operator {
+    color: #fc4384
+}
+
+.cm-s-aloe .cm-qualifier,
+.cm-s-aloe .cm-tag {
+    color: #fc4384
+}
+
+.cm-s-aloe .cm-tag.cm-bracket {
+    color: #d4d4d4
+}
+
+.cm-s-aloe .cm-attribute {
+    color: #a06fca
+}
+
+.cm-s-aloe .cm-comment {
+    color: #696d70;
+    font-style: italic;
+    font-weight: 400
+}
+
+.cm-s-aloe .cm-comment.cm-tag {
+    color: #fc4384
+}
+
+.cm-s-aloe .cm-comment.cm-attribute {
+    color: #d4d4d4
+}
+
+.cm-s-aloe .cm-string {
+    color: #e6db74
+}
+
+.cm-s-aloe .cm-string-2 {
+    color: #f39b35
+}
+
+.cm-s-aloe .cm-meta {
+    color: #d4d4d4;
+    background: inherit
+}
+
+.cm-s-aloe .cm-builtin {
+    color: #fc4384
+}
+
+.cm-s-aloe .cm-header {
+    color: #da7dae
+}
+
+.cm-s-aloe .cm-hr {
+    color: #98e342
+}
+
+.cm-s-aloe .cm-link {
+    color: #696d70;
+    font-style: italic;
+    text-decoration: none
+}
+
+.cm-s-aloe .cm-error {
+    border-bottom: 1px solid #c42412
+}
+
+.cm-s-aloe .CodeMirror-activeline-background {
+    background: #272727
+}
+
+.cm-s-aloe .CodeMirror-matchingbracket {
+    outline: 1px solid grey;
+    color: #d4d4d4 !important
+}
