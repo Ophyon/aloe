@@ -18,6 +18,7 @@ window.onload = () => {
     editor = CodeMirror(document.querySelector("#editor"), {
             lineNumbers: true,
             lineWrapping: true,
+            smartIndent: false,
             scrollbarStyle: null,
             theme: 'aloe',
             keyMap: "vim",
